@@ -41,7 +41,7 @@
 		A43FF6A827DD0DDD00BFA88A = {
 			isa = PBXGroup;
 			children = (
-				A43FF6B327DD0DDD00BFA88A /* FetchNSPasteboardItems */,
+				A43FF6B427DD0DDD00BFA88A /* main.m */,
 				A43FF6B227DD0DDD00BFA88A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,14 +52,6 @@
 				A43FF6B127DD0DDD00BFA88A /* FetchNSPasteboardItems */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		A43FF6B327DD0DDD00BFA88A /* FetchNSPasteboardItems */ = {
-			isa = PBXGroup;
-			children = (
-				A43FF6B427DD0DDD00BFA88A /* main.m */,
-			);
-			path = FetchNSPasteboardItems;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,7 +237,7 @@
 		A43FF6BA27DD0DDD00BFA88A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
